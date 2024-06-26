@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.badge-type-grass {
+    background-color: #48D0B0;
+}
+
+.badge-type-poison {
+    background-color: #d6a2e4;
+}
+
+.badge-type-normal {
+    background-color: #dcdcdc;
+}
+
+.badge-type-fire {
+    background-color: #FB6C6C;
+}
+
+.badge-type-water {
+    background-color: #75BBFB;
+}
+
+.badge-type-electric {
+    background-color: #FFD56C;
+}
+
+.badge-type-ice {
+    background-color: #8cf5e4;
+}
+
+
+.badge-type-fighting {
+    background-color: #da7589;
+}
+
+.badge-type-ground {
+    background-color: #e69a74;
+}
+
+.badge-type-flying {
+    background-color: #bbc9e4;
+}
+
+.badge-type-psychic {
+    background-color: #ffa5da;
+}
+
+.badge-type-bug {
+    background-color: #2CDAB1;
+}
+
+.badge-type-rock {
+    background-color: #c9bb8a;
+}
+
+.badge-type-ghost {
+    background-color: #8291e0;
+}
+
+.badge-type-dark {
+    background-color: #8e8c94;
+}
+
+.badge-type-dragon {
+    background-color: #88a2e8;
+}
+
+.badge-type-steel {
+    background-color: #9fb8b9;
+}
+
+.badge-type-fairy {
+    background-color: #fdb9e9;
+}
+
+
+
+.text-type-grass,.text-type-normal,.text-type-electric
+,.text-type-ice,.text-type-flying,.text-type-bug
+,.text-type-steel
+  {
+    color: #172554;
+}
+
+.text-type-poison,.text-type-fire,.text-type-water
+,.text-type-fighting,.text-type-ground,.text-type-psychic
+,.text-type-rock,.text-type-ghost,.text-type-dark
+,.text-type-dragon,.text-type-fairy {
+    color: #fff;
+}

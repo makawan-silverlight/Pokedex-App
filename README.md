@@ -1,30 +1,20 @@
-# React + TypeScript + Vite
+# POKEDEX APP
+website character pokemon detail you can search and filter generation and type
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+create website using:
+- React TS (vite)
+- Tailwind CSS
+- Type Script
+- React-Hook Form
+- React-Router-Dom
+- Axios
+- Zustand
 
-Currently, two official plugins are available:
+### API
+- https://pokeapi.co/api/v2
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### DEMO
+- Live Site URL: [https://pokedex-app-makawan.netlify.app/](https://pokedex-app-makawan.netlify.app/)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Screenshot
+![image](https://github.com/user-attachments/assets/ddadd3c9-211e-44cb-bd69-dee71f3efe4e)
